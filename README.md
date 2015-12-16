@@ -13,7 +13,7 @@ After you have read that page follow the instructions. The **ProjectName** menti
 Once you have followed the instructions shown on the "How to Start Every Project in this Class" web page you should have a file called **Main.java**. Replace all of the code present in that file with the code shown below.
 
   
-```
+```java
 package edu.sbcc.cs105;
 
 public class Main {
