@@ -1,7 +1,7 @@
 ##Exercise: HelloWorld (8 Points)
 
 
-* **Note** that all assignments must be able to run in the lab. If you do your assignment from home then it must run as if it was done in the lab. Assignments that are not compatible recieve no credit and you will not be allowed to resubmit. Please test your code in the lab before submitting it. *
+_**Note** that all assignments must be able to run in the lab. If you do your assignment from home then it must run as if it was done in the lab. Assignments that are not compatible recieve no credit and you will not be allowed to resubmit. Please test your code in the lab before submitting it._
 
 The project name of this exercise is **HelloWorld**.
 
