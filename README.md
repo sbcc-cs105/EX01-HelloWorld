@@ -37,7 +37,27 @@ Once you've completed this you can go on and answer the following questions. Cop
 
 ###How to turn in this exercise
 
-The first step of turning in your code is to create a **pull request** in GitHub. This action will indicate to the original project that you have finished and create a place to give feedback on a line by line basis. 
+The first step of turning in your code is to commit and push your code to GitHub. Once you've completed this step your code will be on GitHub in your repository, not the repository for the class. This will allow you to use all your projects later as a portfolio.
+
+To start the process write click your project and select **Team -> Commit...**. You should see the following dialog:
+
+![Commit dialogue](https://www.dropbox.com/s/lojod76ghyzl626/commit-git.png?dl=1)
+
+Now follow these steps to commit and push your code:
+
+1. Select the files by check marking the files you want to commit. In this case **Main.java**. 
+2. Enter a commit message. The commit message can be anything, but should describe the changes that are begin committed. A good commit message in this case might be "Committing code to check in for assignment"
+3. Press **Commit and Push**
+
+You will see a few more dialogs (including ones that may ask for your GitHub username and password) go by and then you will see something similar to the following:
+
+![Push dialogue](https://www.dropbox.com/s/niao32p4abbx4k2/push-git.png?dl=1)
+
+1. Push **OK** to complete the commit. You may get no confirmation, but you can check GitHub to see if the code now exists there.
+
+####Completing the turn-in process
+
+Now to complete the turn-in process, once you confirmed that your code is on GitHub, you need to create a **pull request** in the class GitHub repository. This action will indicate to the original project that you have finished your coding and it will create a place to give feedback on a line by line basis. 
 
 Go to **your** repository for this assignment on GitHub and click on the **Pull Request** icon. You should see something similar to this picture:
 
