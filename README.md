@@ -32,7 +32,8 @@ public class HelloWorld {
     public static void main(String[] args) {
         System.out.println(helloWorld());
     }
-}```  
+}
+```  
 
 You can simply copy the code from the grey box and paste it into the **HelloWorld.java** file. Save it. Now run the file by choosing **Run -> Run** in Eclipse. This notation means to go to the Eclipse **Run** menu and select the item called **Run**. You should see an output that says "Hello, World".
 
