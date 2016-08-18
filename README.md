@@ -46,7 +46,7 @@ Once you've completed this you can go on and answer the following questions. Cop
 
 ### How to turn in this exercise
 
-The first step of turning in your code is to commit and push your code to GitHub. Once you've completed this step your code will be on GitHub in your repository, not the repository for the class. This will allow you to use all your projects later as a portfolio.
+The first step of turning in your code is to commit and push your code to BitBucket. Once you've completed this step your code will be on BitBucket in your repository, not the repository for the class. This will allow you to use all your projects later as a portfolio.
 
 To start the process write click your project and select **Team -> Commit...**. You should see the following dialog:
 
@@ -58,11 +58,11 @@ Now follow these steps to commit and push your code:
 2. Enter a commit message. The commit message can be anything, but should describe the changes that are begin committed. A good commit message in this case might be "Committing code to check in for assignment"
 3. Press **Commit and Push**
 
-You will see a few more dialogs (including ones that may ask for your GitHub username and password) go by and then you will see something similar to the following:
+You will see a few more dialogs (including ones that may ask for your BitBucket username and password) go by and then you will see something similar to the following:
 
 ![Push dialogue](https://www.dropbox.com/s/niao32p4abbx4k2/push-git.png?dl=1)
 
-1. Push **OK** to complete the commit. You may get no confirmation, but you can check GitHub to see if the code now exists there.
+1. Push **OK** to complete the commit. You may get no confirmation, but you can check BitBucket to see if the code now exists there.
 
 #### Completing the turn-in process
 
