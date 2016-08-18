@@ -18,10 +18,14 @@ Once you have followed the instructions shown on the "How to Start Every Project
 package edu.sbcc.cs105;
 
 /**
- * This class implements the classic hello world program. Upon invocation, it
- * simply prints the text "Hello World!".
+ * CS 105 Theory & Practice
+ * CRN: [CHANGE THIS TO YOUR INFORMATION]
+ * Assignment: HelloWorld
  * 
- * @author <Your name here>
+ * Statement of code ownership: I hereby state that I have written all of this
+ * code and I have not copied this code from any other person or source.
+ * 
+ * @author [CHANGE THIS TO YOUR INFORMATION]
  */
 public class HelloWorld {
 
