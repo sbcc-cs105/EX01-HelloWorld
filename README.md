@@ -18,7 +18,7 @@ Once you have followed the instructions shown on the "How to Start Every Project
 package edu.sbcc.cs105;
 
 /**
- * CS 105 Theory & Practice
+ * CS 105 Theory & Practice I
  * CRN: [CHANGE THIS TO YOUR INFORMATION]
  * Assignment: HelloWorld
  * 
