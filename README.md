@@ -74,4 +74,4 @@ Now to complete the turn-in process, once you confirmed that your code is on Bit
 
 Follow the directions in [How to Turn in Every Project in This Class](http://crowd.cs.sbcc.edu:7990/projects/CS105F2016/repos/allan.knight/browse/HowToTurnInEveryProjectInThisClass.md)
 
-**NOTE** You do not need to anything on Canva to turn-in your assignment, but your grade will be posted on there so that you may track your progress throughout the term.
+**NOTE** You do not need to anything on Canvas to turn-in your assignment, but your grade will be posted on there so that you may track your progress throughout the term.
