@@ -7,7 +7,7 @@ The project name of this exercise is **HelloWorld**.
 
 This is your first assignment and this assignment's purpose is to give you some practice using the tools that we will be involved with all semester. This exercise should help you adapt to the class' workflow.
 
-The **first thing you should do** is read the GitHub repository titled "[How to Start Every Project in this Class](https://github.com/sbcc-cs105-spring2016/HowToStartEveryProject)". You can find this page by looking on the class Moodle page, or going to the class [GitHub](https://github.com/sbcc-cs105-spring2016). It should be in the first block.
+The **first thing you should do** is read the BitBucket repository titled "[How to Start Every Project in this Class](http://crowd.cs.sbcc.edu:7990/projects/CS105F2016/repos/allan.knight/browse/HowToStartEveryProject.md)". You can find this page by looking on the class Moodle page, or going to the class [BitBucket](http://crowd.cs.sbcc.edu:7990/projects). It should be in the first block.
 
 After you have read that page follow the instructions. The **ProjectName** mentioned on the page is called **HelloWorld** for this assignment. All assignments start with a sentence giving you the name of the project. You can see this above in the bolded word.
 
@@ -18,10 +18,14 @@ Once you have followed the instructions shown on the "How to Start Every Project
 package edu.sbcc.cs105;
 
 /**
- * This class implements the classic hello world program. Upon invocation, it
- * simply prints the text "Hello World!".
+ * CS 105 Theory & Practice I
+ * CRN: [CHANGE THIS TO YOUR INFORMATION]
+ * Assignment: HelloWorld
  * 
- * @author <Your name here>
+ * Statement of code ownership: I hereby state that I have written all of this
+ * code and I have not copied this code from any other person or source.
+ * 
+ * @author [CHANGE THIS TO YOUR INFORMATION]
  */
 public class HelloWorld {
 
@@ -46,7 +50,7 @@ Once you've completed this you can go on and answer the following questions. Cop
 
 ### How to turn in this exercise
 
-The first step of turning in your code is to commit and push your code to GitHub. Once you've completed this step your code will be on GitHub in your repository, not the repository for the class. This will allow you to use all your projects later as a portfolio.
+The first step of turning in your code is to commit and push your code to BitBucket. Once you've completed this step your code will be on BitBucket in your repository, not the repository for the class. This will allow you to use all your projects later as a portfolio.
 
 To start the process write click your project and select **Team -> Commit...**. You should see the following dialog:
 
@@ -58,34 +62,16 @@ Now follow these steps to commit and push your code:
 2. Enter a commit message. The commit message can be anything, but should describe the changes that are begin committed. A good commit message in this case might be "Committing code to check in for assignment"
 3. Press **Commit and Push**
 
-You will see a few more dialogs (including ones that may ask for your GitHub username and password) go by and then you will see something similar to the following:
+You will see a few more dialogs (including ones that may ask for your BitBucket username and password) go by and then you will see something similar to the following:
 
 ![Push dialogue](https://www.dropbox.com/s/niao32p4abbx4k2/push-git.png?dl=1)
 
-1. Push **OK** to complete the commit. You may get no confirmation, but you can check GitHub to see if the code now exists there.
+1. Push **OK** to complete the commit. You may get no confirmation, but you can check BitBucket to see if the code now exists there.
 
 #### Completing the turn-in process
 
-Now to complete the turn-in process, once you confirmed that your code is on GitHub, you need to create a **pull request** in the class GitHub repository. This action will indicate to the original project that you have finished your coding and it will create a place to give feedback on a line by line basis. 
+Now to complete the turn-in process, once you confirmed that your code is on BitBucket, you need to create a **build plan** on Bamboo. This action will create a Bamboo build plan that will build and test your code everytime you push code to your project. You can also run builds manually
 
-Go to **your** repository for this assignment on GitHub and click on the **Pull Request** icon. You should see something similar to this picture:
+Follow the directions in [How to Turn in Every Project in This Class](http://crowd.cs.sbcc.edu:7990/projects/CS105F2016/repos/allan.knight/browse/HowToTurnInEveryProjectInThisClass.md)
 
-<img src="https://www.dropbox.com/s/tt3rejkyd8xmxxm/EX02-pull-request.png?dl=1" width="661" height="175" />
-
-1\. Click on **New pull request**
-
-The next screen then shows all or your commits up to this point.  It shows the difference between what you originally forked with what you have committed. This difference, often called a "diff", is what your turning in and what I will be grading. 
-
-This screen should look like this at the top:
-
-<img src="https://www.dropbox.com/s/nxzenwey4fanmsz/EX02-create-pull-request.png?dl=1" width="661" height="171" />
-
-2\. Click on **Create pull request**
-
-This final action "_turns_" in the assignment on GitHub. It also causes your code to be unit tested on a separate server. The result should be exactly the same as when you ran it on your computer.
-
-After grading the exercise, the pull request will be closed without merging back into the original project. This is the normal workflow and does not represent any problem with your code.
-
-Finally, you should receive an email that has links to both the pull request and the results of running your code.
-
-**NOTE** You do not need to anything on Moodle to turn-in your assignment, but your grade will be posted on there so that you mab track your progress throughout the term.
+**NOTE** You do not need to anything on Canvas to turn-in your assignment, but your grade will be posted on there so that you may track your progress throughout the term.
