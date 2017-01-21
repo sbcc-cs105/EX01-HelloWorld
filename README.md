@@ -86,6 +86,7 @@ The next screen then shows the source and destination of the pull request. Your 
 <img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-master.png" width="600" height="250" />
 
 3\. Select **master** 
+
 4\. Press the **Continue** button.
 
 This screen should look like this at the top:
