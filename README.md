@@ -96,7 +96,7 @@ This screen should look like this at the top:
 
 2\. Click on **Create**
 
-After selecting **master** and clicking **Continue**, you code should build and be tested within a minute or so. If the test is successfull you will see something similar to the following screen:
+After selecting **Create**, you code should build and be tested within a minute or so. If the test is successfull you will see something similar to the following screen:
 
 <img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-submitted.png" width="740" height="350" />
 
