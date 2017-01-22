@@ -82,23 +82,21 @@ You should see something similar to this picture:
 
 <img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-screen-first.png" width="600" height="250" />
 
-2\. Select **master**
-
 The next screen then shows the source and destination of the pull request. Your code is the source and is listed at the top. The destination is the original project that you forked from. The only thing to do on this screen is to select the **master** branch for your project. When you first come to this screen you should see the following:
 
 <img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-master.png" width="600" height="250" />
 
-3\. Select **Select Branch** you should see something like this:
+2\. Select **Select Branch** you should see something like this:
 
-4\. Select **master** 
+3\. Select **master** 
 
-5\. Press the **Continue** button.
+4\. Press the **Continue** button.
 
 Once you've followed these steps you should see this at the top:
 
 <img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-description.png" width="514" height="325" />
 
-6\. Click on **Create**
+5\. Click on **Create**
 
 After selecting **Create**, you code should build and be tested within a minute or so. If the test is successfull you will see something similar to the following screen:
 
