@@ -96,7 +96,11 @@ Once you've followed these steps you should see this at the top:
 
 <img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-description.png" width="514" height="325" />
 
-5\. Click on **Create**
+5\. Under **Title**, give the pull request a meaningful title. It's mostly for your benefit.
+
+6\. Under **Description**, describe the purpose of this pull request. Usually it's just to submit the assignment. However, you can also use this field to let me know anything that might be wrong or different with your code.
+
+7\. Finally, click on **Create**
 
 After selecting **Create**, you code should build and be tested within a minute or so. If the test is successfull you will see something similar to the following screen:
 
