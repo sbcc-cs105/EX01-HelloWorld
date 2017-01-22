@@ -71,7 +71,7 @@ You will see a few more dialogs (including ones that may ask for your BitBucket 
 
 Now to complete the turn-in process, once you confirmed that your code is on BitBucket, you need to create a **pull request** in the class BitBucket repository. This action will indicate to the original project that you have finished your coding and it will create a place to give feedback on a line by line basis. 
 
-Go to **your** repository for this assignment on BitBucket.
+Go to **your** repository or the repository for this assignment on BitBucket (the project you forked from to create your project).
 
 <img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/create-pull-request.png" width="207" height="207" />
 
