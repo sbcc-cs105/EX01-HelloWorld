@@ -112,6 +112,4 @@ This final action "_turns_" in the assignment on BitBucket. It also causes your 
 
 After grading the exercise, the pull request will be closed without merging back into the original project. This is the normal workflow and does not represent any problem with your code.
 
-Finally, you should receive an email that has links to both the pull request and the results of running your code.
-
 **NOTE** You do not need to anything on Canvas to turn-in your assignment, but your grade will be posted on there so that you mab track your progress throughout the term.
