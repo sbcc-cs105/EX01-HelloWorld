@@ -1,15 +1,15 @@
 ## Exercise: HelloWorld (8 Points)
 
 
-_**Note** that all assignments must be able to run in the lab. If you do your assignment from home then it must run as if it was done in the lab. Assignments that are not compatible receive no credit and you will not be allowed to resubmit. Please test your code in the lab before submitting it._
-
+_**Note:** All assignments must be able to run in the SBCC Computer lab. If you do your assignment from home then you must verify that it will work in the lab. Assignments that do not run in the SBCC Computer lab will potentially receive no credit and you will not be allowed to resubmit. Please test your code in the lab before submitting it._
+,
 The project name of this exercise is **HelloWorld**.
 
-This is your first assignment and this assignment's purpose is to give you some practice using the tools that we will be involved with all semester. This exercise should help you adapt to the class' workflow.
+This is your first assignment and this assignment's purpose is to give you some practice using the tools that we will use all semester. This exercise should help you adapt to the class' _workflow_.
 
 The **first thing you should do** is read the BitBucket repository titled "[How to Start Every Project in this Class](http://crowd.cs.sbcc.edu:7990/projects/CS105F2016/repos/allan.knight/browse/HowToStartEveryProject.md)".
 
-After you have read that page follow the instructions. The **ProjectName** mentioned on the page is called **HelloWorld** for this assignment. All assignments start with a sentence giving you the name of the project. You can see this above in the bolded word.
+After you have read that page, follow the instructions. The **ProjectName** mentioned on the page is called **HelloWorld** for this assignment. All assignments start with a sentence giving you the name of the project. You can see this above in bold text.
 
 Once you have followed the instructions shown on the "How to Start Every Project in this Class" web page you should have a file called **HelloWorld.java**. Replace all of the code present in that file with the code shown below.
 
@@ -43,9 +43,9 @@ public class HelloWorld {
 }
 ```  
 
-You can simply copy the code from the grey box and paste it into the **HelloWorld.java** file. Save it. Now run the file by choosing **Run -> Run** in Eclipse. This notation means to go to the Eclipse **Run** menu and select the item called **Run**. You should see an output that says "Hello, World".
+You can simply copy the code from the grey box and paste it into the **HelloWorld.java** file. Save it. Now run the file by choosing **Run -> Run** in Eclipse. This notation means to go to the Eclipse **Run** menu and select the item called **Run**. You should see an output, in the console window at he botom of Eclipse, that says "Hello, World!".
 
-Once you've completed this you can go on and answer the following questions in the header comment. Answer the questions in that block. **Please don't forget to answer thes questions!** 
+Once you've completed this you can go on and answer the following questions in the header comment. Answer the questions in that block. **Please don't forget to answer these questions!** 
 
 ### How to turn in this exercise
 
@@ -71,7 +71,7 @@ You will see a few more dialogs (including ones that may ask for your BitBucket 
 
 Now to complete the turn-in process, once you confirmed that your code is on BitBucket, you need to create a **pull request** in the class BitBucket repository. This action will indicate to the original project that you have finished your coding and it will create a place to give feedback on a line by line basis. 
 
-Go to **your** repository or the repository for this assignment on BitBucket (the project you forked from to create your project).
+Go to **your** repository or the repository for this assignment on BitBucket (the project you forked to create your project).
 
 <img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/create-pull-request.png" width="207" height="207" />
 
@@ -102,7 +102,7 @@ Once you've followed these steps you should see this at the top:
 
 7\. Finally, click on **Create**
 
-After selecting **Create**, you code should build and be tested within a minute or so. If the test is successfull you will see something similar to the following screen:
+After selecting **Create**, you code should build and be tested within a minute or so. If the test is successful you will see something similar to the following screen:
 
 <img src="https://dl.dropboxusercontent.com/u/7698973/cs105/EX01-HelloWorld/pull-request-submitted.png" width="740" height="350" />
 
@@ -112,4 +112,4 @@ This final action "_turns_" in the assignment on BitBucket. It also causes your 
 
 After grading the exercise, the pull request will be closed without merging back into the original project. This is the normal workflow and does not represent any problem with your code.
 
-**NOTE** You do not need to anything on Canvas to turn-in your assignment, but your grade will be posted on there so that you mab track your progress throughout the term.
+**NOTE** You do not need to anything on Canvas to turn-in your assignment, but your grade will be posted on there so that you can track your progress throughout the term.
