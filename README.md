@@ -7,6 +7,10 @@ The project name of this exercise is **HelloWorld**.
 
 This is your first assignment and this assignment's purpose is to give you some practice using the tools that we will use all semester. This exercise should help you adapt to the class' _workflow_.
 
+You can watch this video on Youtube if you're better at following video instructions.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Vviw286fWjg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 The **first thing you should do** is read the BitBucket repository titled "[How to Start Every Project in this Class](http://crowd.cs.sbcc.edu:7990/projects/CS105F2016/repos/allan.knight/browse/HowToStartEveryProject.md)".
 
 After you have read that page, follow the instructions. The **ProjectName** mentioned on the page is called **HelloWorld** for this assignment. All assignments start with a sentence giving you the name of the project. You can see this above in bold text.
