@@ -9,7 +9,8 @@ This is your first assignment and this assignment's purpose is to give you some 
 
 You can watch this video on Youtube if you're better at following video instructions.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vviw286fWjg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div align="left">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Vviw286fWjg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 The **first thing you should do** is read the BitBucket repository titled "[How to Start Every Project in this Class](http://crowd.cs.sbcc.edu:7990/projects/CS105F2016/repos/allan.knight/browse/HowToStartEveryProject.md)".
 
