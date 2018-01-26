@@ -1,2 +1,2 @@
-## bin/
-Root directory of all the compiled .class files for this project
+## src/
+Root directory of source code for this project
