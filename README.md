@@ -11,7 +11,7 @@ You can watch this video on Youtube if you're better at following video instruct
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/Vviw286fWjg/0.jpg)](http://www.youtube.com/watch?v=Vviw286fWjg "EX01-HelloWorld")
 
-The **first thing you should do** is read the BitBucket repository titled "[How to Start Every Project in this Class](http://209.129.49.15:7990/projects/CS105F2016/repos/allan.knight/browse/HowToStartEveryProject.md)".
+The **first thing you should do** is read the BitBucket repository titled "[How to Start Every Project in this Class](http://209.129.49.15:7990/projects/CS105/repos/allan.knight/browse/HowToStartEveryProject.md)".
 
 After you have read that page, follow the instructions. The **ProjectName** mentioned on the page is called **HelloWorld** for this assignment. All assignments start with a sentence giving you the name of the project. You can see this above in bold text.
 
