@@ -7,10 +7,6 @@ The project name of this exercise is **HelloWorld**.
 
 This is your first assignment and this assignment's purpose is to give you some practice using the tools that we will use all semester. This exercise should help you adapt to the class' _workflow_.
 
-You can watch this video on Youtube if you're better at following video instructions.
-
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/Vviw286fWjg/0.jpg)](http://www.youtube.com/watch?v=Vviw286fWjg "EX01-HelloWorld")
-
 The **first thing you should do** is read the BitBucket repository titled "[How to Start Every Project in this Class](http://209.129.49.15:7990/projects/CS105/repos/allan.knight/browse/HowToStartEveryProject.md)".
 
 After you have read that page, follow the instructions. The **ProjectName** mentioned on the page is called **HelloWorld** for this assignment. All assignments start with a sentence giving you the name of the project. You can see this above in bold text.
@@ -19,30 +15,21 @@ Once you have followed the instructions shown on the "How to Start Every Project
 
   
 ```java
-package edu.sbcc.cs105;
+package edu.vcccd.vc.cs40;
 
 /**
- * CS 105 Theory & Practice I
- * CRN: [CHANGE THIS TO YOUR INFORMATION]
+ * CS V40 Beginning Java
  * Assignment: HelloWorld
  * 
  * Statement of code ownership: I hereby state that I have written all of this
  * code and I have not copied this code from any other person or source.
  *
- * 1. What is the name of the source file that you wrote?
- *
- * 2. What version of Java are we using? (Hint: Look after the item called JRE System Library)
- * 
  * @author [CHANGE THIS TO YOUR INFORMATION]
  */
 public class HelloWorld {
 
-    public static String helloWorld() {
-        return "Hello, World!";
-    }
-    
     public static void main(String[] args) {
-        System.out.println(helloWorld());
+        System.out.println("Hello, World!");
     }
 }
 ```  
