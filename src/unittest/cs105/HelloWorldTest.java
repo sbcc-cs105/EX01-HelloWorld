@@ -6,9 +6,9 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import edu.sbcc.cs105.HelloWorld;
+import edu.vcccd.vc.csv40.HelloWorld;
 
-public class HelloWorldTester {
+public class HelloWorldTest {
 	private static final int maximumScore = 5;
 	private static final int maximumAssignmentScore = 8;
 	private static int totalScore;
