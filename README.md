@@ -1,17 +1,17 @@
-## Exercise: HelloWorld (8 Points)
+## Exercise: edu.vcccd.vc.csv40.HelloWorld (8 Points)
 
 
 _**Note:** All assignments must be able to run in the SBCC Computer lab. If you do your assignment from home then you must verify that it will work in the lab. Assignments that do not run in the SBCC Computer lab will potentially receive no credit and you will not be allowed to resubmit. Please test your code in the lab before submitting it._
 ,
-The project name of this exercise is **HelloWorld**.
+The project name of this exercise is **edu.vcccd.vc.csv40.HelloWorld**.
 
 This is your first assignment and this assignment's purpose is to give you some practice using the tools that we will use all semester. This exercise should help you adapt to the class' _workflow_.
 
 The **first thing you should do** is read the BitBucket repository titled "[How to Start Every Project in this Class](http://209.129.49.15:7990/projects/CS105/repos/allan.knight/browse/HowToStartEveryProject.md)".
 
-After you have read that page, follow the instructions. The **ProjectName** mentioned on the page is called **HelloWorld** for this assignment. All assignments start with a sentence giving you the name of the project. You can see this above in bold text.
+After you have read that page, follow the instructions. The **ProjectName** mentioned on the page is called **edu.vcccd.vc.csv40.HelloWorld** for this assignment. All assignments start with a sentence giving you the name of the project. You can see this above in bold text.
 
-Once you have followed the instructions shown on the "How to Start Every Project in this Class" web page you should have a file called **HelloWorld.java**. Replace all of the code present in that file with the code shown below.
+Once you have followed the instructions shown on the "How to Start Every Project in this Class" web page you should have a file called **edu.vcccd.vc.csv40.HelloWorld.java**. Replace all of the code present in that file with the code shown below.
 
   
 ```java
@@ -19,14 +19,14 @@ package edu.vcccd.vc.cs40;
 
 /**
  * CS V40 Beginning Java
- * Assignment: HelloWorld
+ * Assignment: edu.vcccd.vc.csv40.HelloWorld
  * 
  * Statement of code ownership: I hereby state that I have written all of this
  * code and I have not copied this code from any other person or source.
  *
  * @author [CHANGE THIS TO YOUR INFORMATION]
  */
-public class HelloWorld {
+public class edu.vcccd.vc.csv40.HelloWorld {
 
     public static void main(String[] args) {
         System.out.println("Hello, World!");
@@ -34,7 +34,7 @@ public class HelloWorld {
 }
 ```  
 
-You can simply copy the code from the grey box and paste it into the **HelloWorld.java** file. Save it. Now run the file by choosing **Run -> Run** in Eclipse. This notation means to go to the Eclipse **Run** menu and select the item called **Run**. You should see an output, in the console window at he botom of Eclipse, that says "Hello, World!".
+You can simply copy the code from the grey box and paste it into the **edu.vcccd.vc.csv40.HelloWorld.java** file. Save it. Now run the file by choosing **Run -> Run** in Eclipse. This notation means to go to the Eclipse **Run** menu and select the item called **Run**. You should see an output, in the console window at he botom of Eclipse, that says "Hello, World!".
 
 Once you've completed this you can go on and answer the following questions in the header comment. Answer the questions in that block. **Please don't forget to answer these questions!** 
 
@@ -48,7 +48,7 @@ To start the process write click your project and select **Team -> Commit...**. 
 
 Now follow these steps to commit and push your code:
 
-1. Select the files by check marking the files you want to commit. In this case **HelloWorld.java**. 
+1. Select the files by check marking the files you want to commit. In this case **edu.vcccd.vc.csv40.HelloWorld.java**. 
 2. Enter a commit message. The commit message can be anything, but should describe the changes that are begin committed. A good commit message in this case might be "Committing code to check in for assignment"
 3. Press **Commit and Push**
 
