@@ -1,3 +1,14 @@
+.gradle
+.idea
+build
+gradle
+lib
+src/test/java/unittest/csv40
+*.gradle
+README.md
+gradlew
+gradlew.bat
+
 *.class
 
 # Mobile Tools for Java (J2ME)
