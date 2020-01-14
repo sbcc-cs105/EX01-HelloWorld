@@ -44,17 +44,40 @@ Now go through **HelloWorld.java** and change the [CHANGE THIS TO YOUR INFORMATI
 Next, write your code that prints a string to the console with the computed letter size in `public static void main` between the curly braces. The program should first output a prompt to ask the user for a number. The output could look something like:
 
 ```bash
-Enter a number: 16
-Square: 256
-Cube: 4096
-Fourth: 65536.0
+> Task :run
+Hello, World!
 
-Process finished with exit code 0
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 2 executed
+10:54:33 AM: Task execution finished 'run'.
 ```
 
 Once you've written your code, run it by selected the **EX01-HelloWorld [run]** in the target drop-down box and the pressing the play button. Examine the output. Does it do what you want? If not, how can you modify the code to do what you want?
 
-Next, make sure it also passes the Unit tests. To run the Unit tests select the **EX01-HelloWorld [test]** target and press the play button. 
+Next, make sure it also passes the Unit tests. To run the Unit tests select the **EX01-HelloWorld [test]** target and press the play button. The output to the console should look somethink like:
+
+```bash
+Testing started at 10:55 AM ...
+> Task :wrapper
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :compileTestJava UP-TO-DATE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test
+Your unit test score is 20 out of 20.
+
+The assignment is worth a total of 25 where the remainder of 5 points
+comes from grading related to documentation, algorithms, and other
+criteria.
+BUILD SUCCESSFUL in 1s
+3 actionable tasks: 1 executed, 2 up-to-date
+10:55:29 AM: Task execution finished 'test'.
+
+```
 
 ### How to turn in this exercise
 
