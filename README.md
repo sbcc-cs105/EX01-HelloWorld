@@ -1,106 +1,99 @@
-## Exercise: edu.vcccd.vc.csv40.HelloWorld (8 Points)
+## Exercise: HelloWorld (8 Points)
 
-
-_**Note:** All assignments must be able to run in the SBCC Computer lab. If you do your assignment from home then you must verify that it will work in the lab. Assignments that do not run in the SBCC Computer lab will potentially receive no credit and you will not be allowed to resubmit. Please test your code in the lab before submitting it._
-,
 The project name of this exercise is **edu.vcccd.vc.csv40.HelloWorld**.
 
 This is your first assignment and this assignment's purpose is to give you some practice using the tools that we will use all semester. This exercise should help you adapt to the class' _workflow_.
 
-The **first thing you should do** is read the BitBucket repository titled "[How to Start Every Project in this Class](http://209.129.49.15:7990/projects/CS105/repos/allan.knight/browse/HowToStartEveryProject.md)".
+### Getting Started
 
-After you have read that page, follow the instructions. The **ProjectName** mentioned on the page is called **edu.vcccd.vc.csv40.HelloWorld** for this assignment. All assignments start with a sentence giving you the name of the project. You can see this above in bold text.
+The first thing you will need to do is accept the invitation to this assignment
+from GitHub Classroom. You can click [here](https://classroom.github.com/a/LcUVFCqC) to accept the invitation, and get started. 
 
-Once you have followed the instructions shown on the "How to Start Every Project in this Class" web page you should have a file called **edu.vcccd.vc.csv40.HelloWorld.java**. Replace all of the code present in that file with the code shown below.
+Be sure that you accept the invitation first and use the URL to your new project when you clone it in CLion. After copying
+the URL into the clipboard, in CLion click **VCS -> Checkout from Version Control -> Git**. Paste the URL into the **URL** box of the _Clone Repository_ dialog box and press **Clone**.
 
-  
+### Writing the code for this Project
+
+Like our last exercise, we are going to start by creating a Java class. The file for this project is called **HelloWorld.java**. In the Project view, click the trianble next to the project name, then `src`, then `main`, then right-click on `java` select `New -> Java Class` to create a class called **edu.vcccd.vc.csv40.HelloWorld**.
+
+That lass action will create a file named **HelloWorld.java**. This file is where your source code will go. Replace the code in that file with the code in the grey box below:
+
 ```java
 package edu.vcccd.vc.cs40;
 
 /**
  * CS V40 Beginning Java
- * Assignment: edu.vcccd.vc.csv40.HelloWorld
+ * Assignment: HelloWorld
  * 
  * Statement of code ownership: I hereby state that I have written all of this
  * code and I have not copied this code from any other person or source.
  *
  * @author [CHANGE THIS TO YOUR INFORMATION]
  */
-public class edu.vcccd.vc.csv40.HelloWorld {
-
+public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
 }
 ```  
 
-You can simply copy the code from the grey box and paste it into the **edu.vcccd.vc.csv40.HelloWorld.java** file. Save it. Now run the file by choosing **Run -> Run** in Eclipse. This notation means to go to the Eclipse **Run** menu and select the item called **Run**. You should see an output, in the console window at he botom of Eclipse, that says "Hello, World!".
+Now go through **HelloWorld.java** and change the [CHANGE THIS TO YOUR INFORMATION] text to your name and email address.
 
-Once you've completed this you can go on and answer the following questions in the header comment. Answer the questions in that block. **Please don't forget to answer these questions!** 
+### Running the code for this project
+
+Next, write your code that prints a string to the console with the computed letter size in `public static void main` between the curly braces. The program should first output a prompt to ask the user for a number. The output could look something like:
+
+```bash
+Enter a number: 16
+Square: 256
+Cube: 4096
+Fourth: 65536.0
+
+Process finished with exit code 0
+```
+
+Once you've written your code, run it by selected the **EX01-HelloWorld [run]** in the target drop-down box and the pressing the play button. Examine the output. Does it do what you want? If not, how can you modify the code to do what you want?
+
+Next, make sure it also passes the Unit tests. To run the Unit tests select the **EX01-HelloWorld [test]** target and press the play button. 
 
 ### How to turn in this exercise
 
-The first step of turning in your code is to commit and push your code to BitBucket. Once you've completed this step your code will be on BitBucket in your repository, not the repository for the class. This will allow you to use all your projects later as a portfolio.
+### Pushing your code to GitHub
 
-To start the process write click your project and select **Team -> Commit...**. You should see the following dialog:
+Now you need to turn in your code by sending, or pushing, your code to GitHub. You created a 
+GitHub repository when you started the assignment. Now you need to take your local code changes
+and send them to GitHub so that you can turn it in and have it graded in the next step in the
+work flow.
 
-![Commit dialogue](https://www.dropbox.com/s/lojod76ghyzl626/commit-git.png?dl=1)
+The first step is to commit your code locally. This tell git what files you want to turn in. In 
+this case you only need to turn in the contents of `hello_world.py`. In the Project view, right-
+click **EX01-HelloWorld** and then select **Git -> Commit Directory...**. In the dialog box that
+pops up, be sure only `hello_world.py` is selected and that there is some text in the _Commit 
+Message_ box. A good commit message would be something like `Committing code to get a good grade`.
+Select the arrow next to **Commit** button, and select **Commit and Push**.
 
-Now follow these steps to commit and push your code:
+Once the commit is finished, which is a purely local action, you may need to send that commit to 
+GitHub, if you selected **Commit** instead of **Commit and Push**. This is called the push phase 
+of the process. Again right-click on **EX01-HelloWorld**. Then select **Git -> Repository -> Push**. 
+In the dialog box that pops up, push the **Push** button and that should be it. You should see a 
+message that says the push was successful. In the next step you'll confirm that your code is 
+working and then submit it for a grade.
 
-1. Select the files by check marking the files you want to commit. In this case **edu.vcccd.vc.csv40.HelloWorld.java**. 
-2. Enter a commit message. The commit message can be anything, but should describe the changes that are begin committed. A good commit message in this case might be "Committing code to check in for assignment"
-3. Press **Commit and Push**
+### Turning in and Grading your code
 
-You will see a few more dialogs (including ones that may ask for your BitBucket username and password) go by and then you will see something similar to the following:
+Go back to LazyGrader and login again, if needed. Press the _Build_ button next to 
+**EX01-HelloWorld** for this course. This will send a command to Jenkins to download your code
+from GitHub and test it. If all goes well and all the tests pass, the ball next to the _Build_
+will turn blue. If some of the tests don't pass the ball will be yellow. If the ball is grey,
+that means you have not run the tests before and your project is not ready for grading.
 
-![Push dialogue](https://www.dropbox.com/s/niao32p4abbx4k2/push-git.png?dl=1)
+Once the Jenkins status is blue or yellow, press the _Grade_ button for **EX01-HelloWorld**.
+This will read the results from Jenkins and send your grade to Canvas. Once the notification in 
+LazyGrader says the grade has been posted, you should see your grade on Canvas.
 
-1. Push **OK** to complete the commit. You may get no confirmation, but you can check BitBucket to see if the code now exists there.
+That's it, once you've submitted your grade, you are done. I will add points later, after I
+inspect your code. For example, most projects will be out of a total of 25 points, but after 
+pressing the _Grade_ button, Canvas will show 20 points. I will add up to 5 points after I have
+looked at your code and am conviced it is original.
 
-#### Completing the turn-in process
-
-Now to complete the turn-in process, once you confirmed that your code is on BitBucket, you need to create a **pull request** in the class BitBucket repository. This action will indicate to the original project that you have finished your coding and it will create a place to give feedback on a line by line basis. 
-
-Go to **your** repository or the repository for this assignment on BitBucket (the project you forked to create your project).
-
-<img src="https://www.dropbox.com/s/p40wg00a72khhpv/create-pull-request.png?dl=1" width="207" height="207" />
-
-1\. Click on the **Create pull request** icon. 
-
-You should see something similar to this picture:
-
-
-<img src="https://www.dropbox.com/s/rrgmvpc9wtfjqrr/pull-request-screen-first.png?dl=1" width="600" height="250" />
-
-The next screen then shows the source and destination of the pull request. Your code is the source and is listed at the top. The destination is the original project that you forked from. The only thing to do on this screen is to select the **master** branch for your project. Once you select **Select Branch**, as directed below, you should see the following:
-
-<img src="https://www.dropbox.com/s/r9cmia1ixppglko/pull-request-master.png?dl=1" width="600" height="250" />
-
-2\. Select **Select Branch** you should see something like this:
-
-3\. Select **master** 
-
-4\. Press the **Continue** button.
-
-Once you've followed these steps you should see this at the top:
-
-<img src="https://www.dropbox.com/s/mglhiaeqd2qn72p/pull-request-description.png?dl=1" width="514" height="325" />
-
-5\. Under **Title**, give the pull request a meaningful title. It's mostly for your benefit.
-
-6\. Under **Description**, describe the purpose of this pull request. Usually it's just to submit the assignment. However, you can also use this field to let me know anything that might be wrong or different with your code.
-
-7\. Finally, click on **Create**
-
-After selecting **Create**, you code should build and be tested within a minute or so. If the test is successful you will see something similar to the following screen:
-
-<img src="https://www.dropbox.com/s/sy4c82pi4glk5pu/pull-request-submitted.png?dl=1" width="740" height="350" />
-
-Notice the part on the right hand of the screen that says **3 builds**. If the icon is green your good, if it failed, it will be red. **Note** This one says 3 builds, it might say another number. The important thing is whether it is green or red.
-
-This final action "_turns_" in the assignment on BitBucket. It also causes your code to be unit tested on a separate server. The result should be exactly the same as when you ran it on your computer.
-
-After grading the exercise, the pull request will be closed without merging back into the original project. This is the normal workflow and does not represent any problem with your code.
-
-**NOTE** You do not need to anything on Canvas to turn-in your assignment, but your grade will be posted on there so that you can track your progress throughout the term.
+ 
