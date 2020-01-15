@@ -1,4 +1,4 @@
-## Exercise: HelloWorld (8 Points)
+## Exercise: HelloWorld (25 points)
 
 The project name of this exercise is **HelloWorld**.
 
