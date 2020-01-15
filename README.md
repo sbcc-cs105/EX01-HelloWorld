@@ -1,6 +1,6 @@
 ## Exercise: HelloWorld (8 Points)
 
-The project name of this exercise is **edu.vcccd.vc.csv40.HelloWorld**.
+The project name of this exercise is **HelloWorld**.
 
 This is your first assignment and this assignment's purpose is to give you some practice using the tools that we will use all semester. This exercise should help you adapt to the class' _workflow_.
 
