@@ -19,7 +19,7 @@ Like our last exercise, we are going to start by creating a Java class. The file
 That lass action will create a file named **HelloWorld.java**. This file is where your source code will go. Replace the code in that file with the code in the grey box below:
 
 ```java
-package edu.vcccd.vc.cs40;
+package edu.vcccd.vc.csv40;
 
 /**
  * CS V40 Beginning Java
