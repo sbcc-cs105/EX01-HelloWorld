@@ -9,8 +9,8 @@ This is your first assignment and this assignment's purpose is to give you some 
 The first thing you will need to do is accept the invitation to this assignment
 from GitHub Classroom. You can click [here](https://classroom.github.com/a/iCaE4ZOX) to accept the invitation, and get started. 
 
-Be sure that you accept the invitation first and use the URL to your new project when you clone it in CLion. After copying
-the URL into the clipboard, in CLion click **VCS -> Checkout from Version Control -> Git**. Paste the URL into the **URL** box of the _Clone Repository_ dialog box and press **Clone**.
+Be sure that you accept the invitation first and use the URL to your new project when you clone it in IntelliJ. After copying
+the URL into the clipboard, in IntelliJ click **VCS -> Checkout from Version Control -> Git**. Paste the URL into the **URL** box of the _Clone Repository_ dialog box and press **Clone**.
 
 ### Writing the code for this Project
 
