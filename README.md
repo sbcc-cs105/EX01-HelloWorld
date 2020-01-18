@@ -91,7 +91,7 @@ work flow.
 The first step is to commit your code locally. This tell git what files you want to turn in. In 
 this case you only need to turn in the contents of `HelloWorld.java`. In the Project view, right-
 click **EX01-HelloWorld** and then select **Git -> Commit Directory...**. In the dialog box that
-pops up, be sure only `hello_world.py` is selected and that there is some text in the _Commit 
+pops up, be sure only `HelloWorld.java` is selected and that there is some text in the _Commit 
 Message_ box. A good commit message would be something like `Committing code to get a good grade`.
 Select the arrow next to **Commit** button, and select **Commit and Push**.
 
