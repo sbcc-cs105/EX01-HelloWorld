@@ -4,10 +4,10 @@ plugins {
 }
 
 application {
-    mainClassName = "edu.vcccd.vc.csv40.HelloWorld"
+    mainClassName = "edu.sbcc.cs105.HelloWorld"
 }
 
-group 'edu.vcccd.vc.csv40'
+group 'edu.sbcc.cs105'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8

@@ -1,10 +1,10 @@
-package unittest.csv40;
+package unittest.cs105;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.*;
 
-import edu.vcccd.vc.csv40.HelloWorld;
+import edu.sbcc.cs105.HelloWorld;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
