@@ -81,7 +81,7 @@ BUILD SUCCESSFUL in 1s
 
 ### How to turn in this exercise
 
-### Pushing your code to GitHub
+#### Pushing your code to GitHub
 
 Now you need to turn in your code by sending, or pushing, your code to GitHub. You created a 
 GitHub repository when you started the assignment. Now you need to take your local code changes
@@ -102,7 +102,7 @@ In the dialog box that pops up, push the **Push** button and that should be it. 
 message that says the push was successful. In the next step you'll confirm that your code is 
 working and then submit it for a grade.
 
-### Turning in and Grading your code
+#### Turning in and Grading your code
 
 Go back to LazyGrader and login again, if needed. Press the _Build_ button next to 
 **EX01-HelloWorld** for this course. This will send a command to Jenkins to download your code
