@@ -14,7 +14,7 @@ the URL into the clipboard, in CLion click **VCS -> Checkout from Version Contro
 
 ### Writing the code for this Project
 
-Like our last exercise, we are going to start by creating a Java class. The file for this project is called **HelloWorld.java**. In the Project view, click the trianble next to the project name, then `src`, then `main`, then right-click on `java` select `New -> Java Class` to create a class called **HelloWorld**.
+Like our last exercise, we are going to start by creating a Java class. The file for this project is called **HelloWorld.java**. In the Project view, click the trianble next to the project name, then `src`, then `main`, then `java` and then right-click on `edu.sbcc.cs105` select `New -> Java Class` to create a class called **HelloWorld**.
 
 That lass action will create a file named **HelloWorld.java**. This file is where your source code will go. Replace the code in that file with the code in the grey box below:
 
