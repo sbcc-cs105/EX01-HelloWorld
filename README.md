@@ -89,7 +89,7 @@ and send them to GitHub so that you can turn it in and have it graded in the nex
 work flow.
 
 The first step is to commit your code locally. This tell git what files you want to turn in. In 
-this case you only need to turn in the contents of `hello_world.py`. In the Project view, right-
+this case you only need to turn in the contents of `HelloWorld.java`. In the Project view, right-
 click **EX01-HelloWorld** and then select **Git -> Commit Directory...**. In the dialog box that
 pops up, be sure only `hello_world.py` is selected and that there is some text in the _Commit 
 Message_ box. A good commit message would be something like `Committing code to get a good grade`.
